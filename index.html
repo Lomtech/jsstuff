@@ -1,14 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
-    <!-- Einbindung der Style.css Datei -->
-    <link rel="stylesheet" href="/css/style.css">
+    <!-- Verlinkung der externen CSS-Datei -->
+    <link rel="stylesheet" href="css/style.css">
+
 </head>
+
 <body>
-    <h1 id="überschrift" class="übershrift">Hi ich bin Lom</h1>
+
+    <!-- Navigation -->
+
+    <nav>
+        <ul>
+            <li><a href="#about">About me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Flexbox-Container um das Bild -->
+    <div class="profile-picture">
+        <img src="static/lom.png" alt="Bild von Lom-Ali Imadaev dem JavaScript Entwickler" />
+    </div>
+
+    <h1 class="text">Hi, ich bin Lom</h1>
+
+    <footer>
+        <p>&copy; 2024 Lom-Ali Imadaev - Alle Rechte vorbehalten </p>
+    </footer>
+   
+    <!-- Einbindung der JavaScript-Datei -->
+    <script src="js/script.js"></script>
 </body>
+
 </html>

@@ -1,5 +1,73 @@
-.überschrift {
-    color: blue;
-    font-size: 36px;
+/* Allgemeine Stile für den Body */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(243, 238, 238, 0.5);
+}
+
+/* Stile für die Navigation */
+nav {
+    background-color: rgb(23, 73, 179);
+    padding: 15px;
     text-align: center;
+}
+
+nav ul {
+    list-style-type: none; /* Keine Aufzählungspunkte*/
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-flex; /* Links nebeneinander anzeigen */
+    margin-right: 20px; /* Abstand zwischen den links */
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none; /* Entfernt Unterstreichung */
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: rgb(0, 12, 116)
+}
+
+/* Flexbox-Container für Bildzentrierung */
+.profile-picture {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* Bildgröße und Stile anpassen */
+.profile-picture img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 3px solid white;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Leuchteffekt beim Hover */
+.profile-picture img:hover {
+    transform: scale(1.2);
+    box-shadow: 0 0 20px 10px rgba(142, 154, 226, 0.7)
+}
+
+.text {
+    text-align: center;
+}
+
+/* Footer-Stile */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
 }
