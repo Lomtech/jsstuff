@@ -32,7 +32,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: rgb(0, 12, 116)
+    color: rgb(166, 167, 172)
 }
 
 /* Flexbox-Container für Bildzentrierung */
@@ -54,7 +54,7 @@ nav ul li a:hover {
 /* Leuchteffekt beim Hover */
 .profile-picture img:hover {
     transform: scale(1.2);
-    box-shadow: 0 0 20px 10px rgba(142, 154, 226, 0.7)
+    box-shadow: 0 0 20px 10px rgb(166, 167, 172)
 }
 
 .text {
